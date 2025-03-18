@@ -1,0 +1,88 @@
+package com.cnfad.lab7;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+@SpringBootApplication
+public class Lab7Application {
+
+	public static void main(String[] args) {
+		ApplicationContext context=SpringApplication.run(Lab7Application.class, args);
+		 Scanner scanner = new Scanner(System.in);
+	        
+	        int ch;
+	        String name;
+	        int marks;
+	        
+			StudentService studentService= context.getBean(StudentService.class);
+			 while (true) {
+		            System.out.println("MENU\n1.Enter name\n2.Display table\n3.Update\n4.Exit");
+
+		            if (scanner.hasNextInt()) {
+		                ch = scanner.nextInt();
+		                scanner.nextLine(); 
+
+		                switch (ch) {
+		                    case 1: {
+		                        System.out.println("Enter Student name:");
+		                        name = scanner.nextLine(); 
+		                        System.out.println("Enter Marks:");
+		                        if (scanner.hasNextInt()) {
+		                            marks = scanner.nextInt();
+		                            studentService.insertMessage(name, marks);
+		                        } else {
+		                            System.out.println("Invalid input for marks.");
+		                            scanner.next();
+		                        }
+		                        break;
+		                    }
+
+		                    case 2: {
+		                        List<Student> cl = studentService.displayMessage();
+		                        for (Student m : cl) {
+		                            System.out.println(m.toString());
+		                        }
+		                        break;
+		                    }
+
+		                    case 3: {
+		                        System.out.println("Enter Student id:");
+		                        if (scanner.hasNextInt()) {
+		                            ch = scanner.nextInt();
+		                            System.out.println("Enter updated Marks:");
+		                            if (scanner.hasNextInt()) {
+		                                marks = scanner.nextInt();
+		                                studentService.updateMessage(ch, marks);
+		                            } else {
+		                                System.out.println("Invalid input for marks.");
+		                                scanner.next();  // Clear invalid input
+		                            }
+		                        } else {
+		                            System.out.println("Invalid input for student id.");
+		                            scanner.next();  // Clear invalid input
+		                        }
+		                        break;
+		                    }
+
+		                    case 4: {
+		                        System.out.println("Exiting...");
+		                        System.exit(0);
+		                        break;
+		                    }
+
+		                    default: {
+		                        System.out.println("Invalid choice. Please try again.");
+		                    }
+		                }
+		            } else {
+		                System.out.println("Invalid input. Please enter a valid menu option.");
+		                scanner.next(); // Consume invalid input and prompt again
+		         
+			 }
+}
+	}
+}

@@ -1,0 +1,5 @@
+package com.cnfad.lab7;
+
+public interface StudentRepository {
+
+}
