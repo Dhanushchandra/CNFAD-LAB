@@ -1,32 +1,25 @@
 version: '3.8'
-
 services:
   db:
-    image: mysql:latest
+    image: 'mysql:latest'
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: student
-      MYSQL_USER: abc
-      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: Shangi@123
+      MYSQL_DATABASE: Student
+      MYSQL_PASSWORD: Shangi@123
     networks:
       - default
-
-  spring-boot-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  app:
+    image: 'lab9:latest'
     ports:
-      - "8083:8080"
+      - '8083:8080'
+    environment:
+      SPRING_DATASOURCE_URL: 'jdbc:mysql://db:3306/Student'
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.cj.jdbc.Driver
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Shangi@123
     depends_on:
       - db
-    environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/student
-      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.cj.jdbc.Driver
-      SPRING_DATASOURCE_USERNAME: abc
-      SPRING_DATASOURCE_PASSWORD: root
     networks:
       - default
-
 networks:
-  default:
-    driver: bridge
+  default: null
