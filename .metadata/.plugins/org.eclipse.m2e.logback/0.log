@@ -2742,3 +2742,402 @@ org.eclipse.core.runtime.CoreException: Launch configuration Lab4Application ref
 2025-03-31 17:16:58,329 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-03-31 17:16:58,367 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-03-31 17:16:58,389 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab3\src\test\resources
+2025-03-31 19:06:29,031 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Lab3Application references non-existing project lab3.
+org.eclipse.core.runtime.CoreException: Launch configuration Lab3Application references non-existing project lab3.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-03-31 19:06:29,046 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Lab3Application references non-existing project lab3.
+org.eclipse.core.runtime.CoreException: Launch configuration Lab3Application references non-existing project lab3.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-03-31 19:06:29,052 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration Lab3Application references non-existing project lab3.
+org.eclipse.core.runtime.CoreException: Launch configuration Lab3Application references non-existing project lab3.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-03-31 19:06:51,665 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab1:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab1\pom.xml.
+2025-03-31 19:06:52,033 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:lab10:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab10\pom.xml.
+2025-03-31 19:06:52,316 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab1:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab2\pom.xml.
+2025-03-31 19:06:52,490 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab3:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab3\pom.xml.
+2025-03-31 19:06:52,727 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab4:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab4\pom.xml.
+2025-03-31 19:06:52,924 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab4:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab5\pom.xml.
+2025-03-31 19:06:53,130 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab6:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\pom.xml.
+2025-03-31 19:06:53,346 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab7:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab7\pom.xml.
+2025-03-31 19:06:53,606 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab7:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab9\pom.xml.
+2025-03-31 19:06:58,246 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab2/src/main/java
+2025-03-31 19:06:58,247 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab2/src/main/resources
+2025-03-31 19:06:58,248 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab2/src/main/resources
+2025-03-31 19:06:58,249 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab2/src/test/java
+2025-03-31 19:06:58,250 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab2/src/test/resources
+2025-03-31 19:06:58,446 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.4.4/spring-boot-starter-web-3.4.4-sources.jar
+2025-03-31 19:06:58,483 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/3.4.4/spring-boot-starter-web-3.4.4-sources.jar
+2025-03-31 19:06:58,497 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:3.4.4
+2025-03-31 19:06:58,692 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.4.4/spring-boot-starter-3.4.4-sources.jar
+2025-03-31 19:06:58,721 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/3.4.4/spring-boot-starter-3.4.4-sources.jar
+2025-03-31 19:06:58,727 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter:3.4.4
+2025-03-31 19:06:58,862 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab10/src/main/java
+2025-03-31 19:06:58,864 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab10/src/main/resources
+2025-03-31 19:06:58,864 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab10/src/main/resources
+2025-03-31 19:06:58,865 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab10/src/test/java
+2025-03-31 19:06:58,866 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab10/src/test/resources
+2025-03-31 19:06:58,876 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.4.4/spring-boot-3.4.4-sources.jar
+2025-03-31 19:06:59,148 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/3.4.4/spring-boot-3.4.4-sources.jar
+2025-03-31 19:06:59,154 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:3.4.4
+2025-03-31 19:06:59,301 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.4.4/spring-boot-autoconfigure-3.4.4-sources.jar
+2025-03-31 19:06:59,415 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab9/src/main/java
+2025-03-31 19:06:59,416 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab9/src/main/resources
+2025-03-31 19:06:59,417 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab9/src/main/resources
+2025-03-31 19:06:59,418 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab9/src/test/java
+2025-03-31 19:06:59,419 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab9/src/test/resources
+2025-03-31 19:06:59,773 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/3.4.4/spring-boot-autoconfigure-3.4.4-sources.jar
+2025-03-31 19:06:59,780 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:3.4.4
+2025-03-31 19:06:59,939 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.4.4/spring-boot-starter-logging-3.4.4-sources.jar
+2025-03-31 19:06:59,946 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/3.4.4/spring-boot-starter-logging-3.4.4-sources.jar
+2025-03-31 19:06:59,952 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-logging:3.4.4
+2025-03-31 19:07:00,044 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab6/src/main/java
+2025-03-31 19:07:00,045 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab6/src/main/resources
+2025-03-31 19:07:00,046 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab6/src/main/resources
+2025-03-31 19:07:00,047 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab6/src/test/java
+2025-03-31 19:07:00,048 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab6/src/test/resources
+2025-03-31 19:07:00,195 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18-sources.jar
+2025-03-31 19:07:00,349 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18-sources.jar
+2025-03-31 19:07:00,356 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-classic:1.5.18
+2025-03-31 19:07:00,487 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18-sources.jar
+2025-03-31 19:07:00,499 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab3/src/main/java
+2025-03-31 19:07:00,500 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab3/src/main/resources
+2025-03-31 19:07:00,501 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab3/src/main/resources
+2025-03-31 19:07:00,502 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab3/src/test/java
+2025-03-31 19:07:00,503 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab3/src/test/resources
+2025-03-31 19:07:00,660 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18-sources.jar
+2025-03-31 19:07:00,666 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ch.qos.logback:logback-core:1.5.18
+2025-03-31 19:07:00,800 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17-sources.jar
+2025-03-31 19:07:00,809 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17-sources.jar
+2025-03-31 19:07:00,815 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:2.0.17
+2025-03-31 19:07:00,916 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab5/src/main/java
+2025-03-31 19:07:00,917 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab5/src/main/resources
+2025-03-31 19:07:00,918 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab5/src/main/resources
+2025-03-31 19:07:00,919 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab5/src/test/java
+2025-03-31 19:07:00,920 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab5/src/test/resources
+2025-03-31 19:07:00,948 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.4.4/spring-boot-starter-json-3.4.4-sources.jar
+2025-03-31 19:07:00,957 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/3.4.4/spring-boot-starter-json-3.4.4-sources.jar
+2025-03-31 19:07:00,963 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:3.4.4
+2025-03-31 19:07:01,100 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3-sources.jar
+2025-03-31 19:07:01,261 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 9 project(s) in 15 sec
+2025-03-31 19:07:01,430 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3-sources.jar
+2025-03-31 19:07:01,436 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.18.3
+2025-03-31 19:07:01,581 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3-sources.jar
+2025-03-31 19:07:01,644 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3-sources.jar
+2025-03-31 19:07:01,650 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.18.3
+2025-03-31 19:07:01,737 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-03-31 19:07:01,795 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3-sources.jar
+2025-03-31 19:07:02,155 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3-sources.jar
+2025-03-31 19:07:02,161 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.18.3
+2025-03-31 19:07:03,123 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.3/jackson-datatype-jdk8-2.18.3-sources.jar
+2025-03-31 19:07:03,143 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.3/jackson-datatype-jdk8-2.18.3-sources.jar
+2025-03-31 19:07:03,149 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.3
+2025-03-31 19:07:03,360 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.3/jackson-datatype-jsr310-2.18.3-sources.jar
+2025-03-31 19:07:03,455 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.3/jackson-datatype-jsr310-2.18.3-sources.jar
+2025-03-31 19:07:03,461 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.3
+2025-03-31 19:07:03,624 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.3/jackson-module-parameter-names-2.18.3-sources.jar
+2025-03-31 19:07:03,631 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.3/jackson-module-parameter-names-2.18.3-sources.jar
+2025-03-31 19:07:03,638 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.module:jackson-module-parameter-names:2.18.3
+2025-03-31 19:07:03,804 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.4.4/spring-boot-starter-tomcat-3.4.4-sources.jar
+2025-03-31 19:07:03,811 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/3.4.4/spring-boot-starter-tomcat-3.4.4-sources.jar
+2025-03-31 19:07:03,817 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:3.4.4
+2025-03-31 19:07:04,059 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.39/tomcat-embed-core-10.1.39-sources.jar
+2025-03-31 19:07:04,762 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/10.1.39/tomcat-embed-core-10.1.39-sources.jar
+2025-03-31 19:07:04,768 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:10.1.39
+2025-03-31 19:07:04,901 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.39/tomcat-embed-el-10.1.39-sources.jar
+2025-03-31 19:07:05,050 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/10.1.39/tomcat-embed-el-10.1.39-sources.jar
+2025-03-31 19:07:05,056 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:10.1.39
+2025-03-31 19:07:05,241 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.39/tomcat-embed-websocket-10.1.39-sources.jar
+2025-03-31 19:07:05,373 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.39/tomcat-embed-websocket-10.1.39-sources.jar
+2025-03-31 19:07:05,379 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:10.1.39
+2025-03-31 19:07:05,521 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.5/spring-web-6.2.5-sources.jar
+2025-03-31 19:07:05,943 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.2.5/spring-web-6.2.5-sources.jar
+2025-03-31 19:07:05,949 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:6.2.5
+2025-03-31 19:07:06,098 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.5/spring-beans-6.2.5-sources.jar
+2025-03-31 19:07:06,353 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.2.5/spring-beans-6.2.5-sources.jar
+2025-03-31 19:07:06,359 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:6.2.5
+2025-03-31 19:07:06,519 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.5/micrometer-observation-1.14.5-sources.jar
+2025-03-31 19:07:06,568 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.14.5/micrometer-observation-1.14.5-sources.jar
+2025-03-31 19:07:06,573 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-observation:1.14.5
+2025-03-31 19:07:06,696 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab1:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab1\pom.xml.
+2025-03-31 19:07:06,749 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.5/micrometer-commons-1.14.5-sources.jar
+2025-03-31 19:07:06,795 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.14.5/micrometer-commons-1.14.5-sources.jar
+2025-03-31 19:07:06,802 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-commons:1.14.5
+2025-03-31 19:07:06,971 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.5/spring-webmvc-6.2.5-sources.jar
+2025-03-31 19:07:07,080 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:lab10:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab10\pom.xml.
+2025-03-31 19:07:07,224 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.2.5/spring-webmvc-6.2.5-sources.jar
+2025-03-31 19:07:07,230 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:6.2.5
+2025-03-31 19:07:07,376 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab1:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab2\pom.xml.
+2025-03-31 19:07:07,381 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.5/spring-aop-6.2.5-sources.jar
+2025-03-31 19:07:07,541 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.2.5/spring-aop-6.2.5-sources.jar
+2025-03-31 19:07:07,544 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab3:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab3\pom.xml.
+2025-03-31 19:07:07,547 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:6.2.5
+2025-03-31 19:07:07,716 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.5/spring-context-6.2.5-sources.jar
+2025-03-31 19:07:07,760 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab4:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab4\pom.xml.
+2025-03-31 19:07:07,921 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab4:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab5\pom.xml.
+2025-03-31 19:07:08,058 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.2.5/spring-context-6.2.5-sources.jar
+2025-03-31 19:07:08,064 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:6.2.5
+2025-03-31 19:07:08,128 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab6:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\pom.xml.
+2025-03-31 19:07:08,201 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.5/spring-expression-6.2.5-sources.jar
+2025-03-31 19:07:08,351 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.2.5/spring-expression-6.2.5-sources.jar
+2025-03-31 19:07:08,351 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab7:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab7\pom.xml.
+2025-03-31 19:07:08,356 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:6.2.5
+2025-03-31 19:07:08,522 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.4.4/spring-boot-starter-test-3.4.4-sources.jar
+2025-03-31 19:07:08,527 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/3.4.4/spring-boot-starter-test-3.4.4-sources.jar
+2025-03-31 19:07:08,533 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:3.4.4
+2025-03-31 19:07:08,588 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab7:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab9\pom.xml.
+2025-03-31 19:07:08,660 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.4.4/spring-boot-test-3.4.4-sources.jar
+2025-03-31 19:07:08,783 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/3.4.4/spring-boot-test-3.4.4-sources.jar
+2025-03-31 19:07:08,789 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:3.4.4
+2025-03-31 19:07:08,921 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.4.4/spring-boot-test-autoconfigure-3.4.4-sources.jar
+2025-03-31 19:07:09,056 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/3.4.4/spring-boot-test-autoconfigure-3.4.4-sources.jar
+2025-03-31 19:07:09,062 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:3.4.4
+2025-03-31 19:07:09,192 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar
+2025-03-31 19:07:09,240 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar
+2025-03-31 19:07:09,245 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:2.0.17
+2025-03-31 19:07:09,380 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.5/spring-core-6.2.5-sources.jar
+2025-03-31 19:07:09,726 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.2.5/spring-core-6.2.5-sources.jar
+2025-03-31 19:07:09,731 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:6.2.5
+2025-03-31 19:07:09,860 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.5/spring-jcl-6.2.5-sources.jar
+2025-03-31 19:07:09,865 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.2.5/spring-jcl-6.2.5-sources.jar
+2025-03-31 19:07:09,868 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:6.2.5
+2025-03-31 19:07:10,013 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.5/spring-test-6.2.5-sources.jar
+2025-03-31 19:07:10,287 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/6.2.5/spring-test-6.2.5-sources.jar
+2025-03-31 19:07:10,292 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:6.2.5
+2025-03-31 19:07:10,734 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab1/src/main/java
+2025-03-31 19:07:10,735 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab1/src/main/resources
+2025-03-31 19:07:10,736 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab1/src/main/resources
+2025-03-31 19:07:10,737 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab1/src/test/java
+2025-03-31 19:07:10,738 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab1/src/test/resources
+2025-03-31 19:07:11,035 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab10/src/main/java
+2025-03-31 19:07:11,036 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab10/src/main/resources
+2025-03-31 19:07:11,036 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab10/src/main/resources
+2025-03-31 19:07:11,037 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab10/src/test/java
+2025-03-31 19:07:11,037 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab10/src/test/resources
+2025-03-31 19:07:11,286 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab2/src/main/java
+2025-03-31 19:07:11,287 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab2/src/main/resources
+2025-03-31 19:07:11,287 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab2/src/main/resources
+2025-03-31 19:07:11,288 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab2/src/test/java
+2025-03-31 19:07:11,289 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab2/src/test/resources
+2025-03-31 19:07:11,551 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab3/src/main/java
+2025-03-31 19:07:11,553 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab3/src/main/resources
+2025-03-31 19:07:11,554 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab3/src/main/resources
+2025-03-31 19:07:11,555 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab3/src/test/java
+2025-03-31 19:07:11,556 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab3/src/test/resources
+2025-03-31 19:07:11,985 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab4/src/main/java
+2025-03-31 19:07:11,986 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab4/src/main/resources
+2025-03-31 19:07:11,987 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab4/src/main/resources
+2025-03-31 19:07:11,988 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab4/src/test/java
+2025-03-31 19:07:11,989 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab4/src/test/resources
+2025-03-31 19:07:12,327 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab5/src/main/java
+2025-03-31 19:07:12,328 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab5/src/main/resources
+2025-03-31 19:07:12,329 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab5/src/main/resources
+2025-03-31 19:07:12,330 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab5/src/test/java
+2025-03-31 19:07:12,331 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab5/src/test/resources
+2025-03-31 19:07:12,706 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab6/src/main/java
+2025-03-31 19:07:12,707 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab6/src/main/resources
+2025-03-31 19:07:12,708 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab6/src/main/resources
+2025-03-31 19:07:12,708 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab6/src/test/java
+2025-03-31 19:07:12,709 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab6/src/test/resources
+2025-03-31 19:07:13,067 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab7/src/main/java
+2025-03-31 19:07:13,068 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab7/src/main/resources
+2025-03-31 19:07:13,069 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab7/src/main/resources
+2025-03-31 19:07:13,069 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab7/src/test/java
+2025-03-31 19:07:13,070 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab7/src/test/resources
+2025-03-31 19:07:13,525 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab9/src/main/java
+2025-03-31 19:07:13,526 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab9/src/main/resources
+2025-03-31 19:07:13,527 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab9/src/main/resources
+2025-03-31 19:07:13,528 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab9/src/test/java
+2025-03-31 19:07:13,529 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab9/src/test/resources
+2025-03-31 19:07:14,531 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 9 poms: local refresh takes 0.00 sec, refresh facades takes 8.00 sec, update config takes 3.00 sec 
+2025-03-31 19:07:14,800 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-03-31 19:07:16,459 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab1:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab1\pom.xml.
+2025-03-31 19:07:16,797 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab4:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab4\pom.xml.
+2025-03-31 19:07:16,947 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab7:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab7\pom.xml.
+2025-03-31 19:07:18,014 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab1/src/main/java
+2025-03-31 19:07:18,015 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab1/src/main/resources
+2025-03-31 19:07:18,016 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab1/src/main/resources
+2025-03-31 19:07:18,016 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab1/src/test/java
+2025-03-31 19:07:18,017 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab1/src/test/resources
+2025-03-31 19:07:18,211 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab4/src/main/java
+2025-03-31 19:07:18,211 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab4/src/main/resources
+2025-03-31 19:07:18,212 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab4/src/main/resources
+2025-03-31 19:07:18,212 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab4/src/test/java
+2025-03-31 19:07:18,213 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab4/src/test/resources
+2025-03-31 19:07:18,408 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab7/src/main/java
+2025-03-31 19:07:18,408 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab7/src/main/resources
+2025-03-31 19:07:18,409 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab7/src/main/resources
+2025-03-31 19:07:18,409 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /lab7/src/test/java
+2025-03-31 19:07:18,410 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /lab7/src/test/resources
+2025-03-31 19:07:18,781 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 3 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 0.00 sec 
+2025-03-31 19:07:19,332 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:19,362 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:19,380 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab1\src\test\resources
+2025-03-31 19:07:19,798 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:19,823 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:19,831 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab10\src\test\resources
+2025-03-31 19:07:20,128 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:20,155 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:20,166 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab2\src\test\resources
+2025-03-31 19:07:20,436 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:20,465 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:20,473 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab3\src\test\resources
+2025-03-31 19:07:20,761 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:20,777 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:20,785 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab4\src\test\resources
+2025-03-31 19:07:21,090 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:21,117 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:21,124 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab5\src\test\resources
+2025-03-31 19:07:21,495 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:21,521 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-31 19:07:21,531 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\src\test\resources
+2025-03-31 19:07:21,953 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:21,973 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:21,980 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab7\src\test\resources
+2025-03-31 19:07:22,266 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-31 19:07:22,286 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-31 19:07:22,294 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab9\src\test\resources
+2025-04-01 00:28:36,413 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [361])
+2025-04-01 00:28:36,416 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2025-04-01 00:28:36,416 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\aopalliance-1.0.jar
+2025-04-01 00:28:36,416 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\guice-5.1.0.jar
+2025-04-01 00:28:36,416 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpclient-4.5.14.jar
+2025-04-01 00:28:36,417 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpcore-4.4.16.jar
+2025-04-01 00:28:36,417 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jansi-2.4.1.jar
+2025-04-01 00:28:36,417 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jcl-over-slf4j-1.7.36.jar
+2025-04-01 00:28:36,417 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-artifact-3.9.9.jar
+2025-04-01 00:28:36,417 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-builder-support-3.9.9.jar
+2025-04-01 00:28:36,418 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-compat-3.9.9.jar
+2025-04-01 00:28:36,418 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-core-3.9.9.jar
+2025-04-01 00:28:36,418 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-embedder-3.9.9.jar
+2025-04-01 00:28:36,418 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-3.9.9.jar
+2025-04-01 00:28:36,418 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-builder-3.9.9.jar
+2025-04-01 00:28:36,419 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-plugin-api-3.9.9.jar
+2025-04-01 00:28:36,419 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-repository-metadata-3.9.9.jar
+2025-04-01 00:28:36,419 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-api-1.9.22.jar
+2025-04-01 00:28:36,419 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-04-01 00:28:36,420 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-impl-1.9.22.jar
+2025-04-01 00:28:36,420 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-named-locks-1.9.22.jar
+2025-04-01 00:28:36,420 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-provider-3.9.9.jar
+2025-04-01 00:28:36,420 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-spi-1.9.22.jar
+2025-04-01 00:28:36,420 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-file-1.9.22.jar
+2025-04-01 00:28:36,421 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-http-1.9.22.jar
+2025-04-01 00:28:36,421 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-04-01 00:28:36,421 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-util-1.9.22.jar
+2025-04-01 00:28:36,421 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-3.9.9.jar
+2025-04-01 00:28:36,421 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-builder-3.9.9.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-shared-utils-3.4.2.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-0.0.7.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-1.2.0.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-cipher-2.0.jar
+2025-04-01 00:28:36,422 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-classworlds-2.8.0.jar
+2025-04-01 00:28:36,423 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-component-annotations-2.1.0.jar
+2025-04-01 00:28:36,423 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-interpolation-1.27.jar
+2025-04-01 00:28:36,423 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-sec-dispatcher-2.0.jar
+2025-04-01 00:28:36,423 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-utils-3.5.1.jar
+2025-04-01 00:28:36,423 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-xml-3.0.1.jar
+2025-04-01 00:28:36,423 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-file-3.5.3.jar
+2025-04-01 00:28:36,424 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-3.5.3.jar
+2025-04-01 00:28:36,424 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-shared-3.5.3.jar
+2025-04-01 00:28:36,424 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-provider-api-3.5.3.jar
+2025-04-01 00:28:36,425 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.0.jre [29])
+2025-04-01 00:28:36,426 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\com.google.guava_33.4.0.jre.jar
+2025-04-01 00:28:36,426 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [608])
+2025-04-01 00:28:36,426 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\slf4j.api_2.0.17.jar
+2025-04-01 00:28:36,426 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [45])
+2025-04-01 00:28:36,426 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-04-01 00:28:36,426 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [41])
+2025-04-01 00:28:36,427 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-04-01 00:28:36,427 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [77])
+2025-04-01 00:28:36,427 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2025-04-01 00:28:36,427 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [79])
+2025-04-01 00:28:36,428 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-04-01 00:28:36,428 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [30])
+2025-04-01 00:28:36,428 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Dhanush\Downloads\sts-4.29.0.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-04-01 00:28:36,430 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6":
+2025-04-01 00:28:36,438 [Worker-50: Launching Executing install in D__test Application_Java_Spring Boot_CNFAD-LAB_lab6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2025-04-01 00:29:13,029 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab6:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\pom.xml.
+2025-04-01 00:29:14,305 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:29:14,306 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:29:14,314 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\src\test\resources
+2025-04-01 00:29:15,706 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-01 00:29:15,730 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-01 00:29:15,740 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\src\test\resources
+2025-04-01 00:35:55,132 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:35:55,133 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:35:55,138 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab10\src\test\resources
+2025-04-01 00:35:55,215 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-01 00:35:55,242 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:35:55,247 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab2\src\test\resources
+2025-04-01 00:35:55,300 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:35:55,301 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-01 00:35:55,307 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab9\src\test\resources
+2025-04-01 00:37:47,382 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-01 00:45:59,625 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cnfad:lab6:0.0.1-SNAPSHOT @ D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\pom.xml.
+2025-04-01 00:46:00,933 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-01 00:46:00,956 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-01 00:46:00,964 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\src\test\resources
+2025-04-01 00:46:03,081 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-01 00:46:03,092 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-01 00:46:03,101 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\test Application\Java\Spring Boot\CNFAD-LAB\lab6\src\test\resources
